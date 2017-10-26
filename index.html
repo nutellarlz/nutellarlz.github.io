@@ -66,6 +66,24 @@
       margin-bottom: 40px;
       z-index: 900;
     }
+	#gallery {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 49px;
+      margin-bottom: 110px;
+      z-index: 900;
+    }
+	#apps {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 49px;
+      margin-bottom: 163px;
+      z-index: 900;
+    }
     </style>
   </head>
   <body>
@@ -95,7 +113,8 @@
                 <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Apps</a>-->
                 <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/NutellaRlz">GitHub</a>
                 <a class="mdl-navigation__link mdl-typography--text-uppercase" href="gallery">Gallery</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="apps">Apps</a>
+                <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="apps">Apps</a>-->
+				<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Apps</a>
                 <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://plus.google.com/+JoeHorton">G+</a>
                 <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://joehorton99.blogspot.com/">Blog</a>-->
                 <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="mailto:jtechme.org@gmail.com">Contact</a>-->
@@ -128,7 +147,8 @@
           <!--<a class="mdl-navigation__link" href="">Apps</a>-->
           <a class="mdl-navigation__link" href="https://github.com/NutellaRlz">GitHub</a>
           <a class="mdl-navigation__link" href="gallery">Photo Gallery</a>
-          <a class="mdl-navigation__link" href="apps">Apps</a>
+          <!--<a class="mdl-navigation__link" href="apps">Apps</a>-->
+		  <a class="mdl-navigation__link" href="">Apps</a>
           <!--<a class="mdl-navigation__link" href="mailto:jtechme.org@gmail.com">Contact</a>-->
           <!--<a class="mdl-navigation__link" href="">Core</a>-->
           <a class="mdl-navigation__link" href="http://nutellarlz.github.io">Home</a>
@@ -248,6 +268,18 @@
 
         </footer>
       </div>
+    </div>
+	<a href="apps" id="apps" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored" disabled>
+		<i class="material-icons">apps</i>
+	</a>
+	<div for="apps" class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large">
+    Visit my apps list
+    </div>
+	<a href="gallery" id="gallery" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+		<i class="material-icons">image</i>
+	</a>
+	<div for="gallery" class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large">
+    Visit my photo gallery
     </div>
     <a href="archive" target="_blank" id="archive" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
 	<i class="material-icons">archive</i>
