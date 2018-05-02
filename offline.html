@@ -20,9 +20,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="My portfolio for web-development, software development, photography, and anything else I add.">
+    <meta name="description" content="You're offline">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>NutellaRlz - Josiah Horton</title>
+    <title>Offline</title>
 	
 	<!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -44,9 +44,6 @@
     <link rel="shortcut icon" href="images/favicon.png">
 	<!-- Color the status bar on mobile devices -->
     <meta name="theme-color" content="#F26C4F">
-	
-	<!-- PWA -->
-	<link rel="manifest" href="/manifest.json">
 
     <!-- Page styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
@@ -55,10 +52,9 @@
 	<link rel="stylesheet" href="material.min.css">
     <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="styles.portfolio.css">
-	<!--<link rel="stylesheet" href="https://nutellarlz.github.io/styles.css">-->
 	<!--<link rel="stylesheet" href="styles.blog.css">-->
     <link rel="stylesheet" type="text/css" href="css/tabzilla.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="css/tabzilla2.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/offline.css" media="screen">
 	<link href="css/scroll.css" rel="stylesheet">
     <style>
     #archive {
@@ -68,24 +64,6 @@
       bottom: 0;
       margin-right: 40px;
       margin-bottom: 40px;
-      z-index: 900;
-    }
-	#gallery {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 49px;
-      margin-bottom: 110px;
-      z-index: 900;
-    }
-	#apps {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 49px;
-      margin-bottom: 163px;
       z-index: 900;
     }
     </style>
@@ -99,13 +77,6 @@
   gtag('config', 'UA-112606764-1');
 </script>
 
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-1890250918713524",
-    enable_page_level_ads: true
-  });
-</script>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -113,6 +84,7 @@
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall" id="navbar-header">
         <div class="mdl-layout__header-row">
 		<div id="tabzilla"> <a href="https://nutellarlz.github.io">NutellaRlz</a> </div>
+		<div id="tabzilla_off"> <a href="https://nutellarlz.github.io">Offline</a> </div>
 		<!--<div id="tabzilla2"> <a href="">JumpGo</a> </div>-->
           <!--<span class="android-title mdl-layout-title">
             <img class="android-logo-image" src="images/android-logo.png">
@@ -194,135 +166,39 @@
       <div class="android-content mdl-layout__content">
 	  
 	  <a name="top"></a>
+	  <!--<div class="android-be-together-section mdl-typography--text-center">-->
+          <!--<div class="logo-font android-slogan">404</div>-->
+          <!--<div class="logo-font android-sub-slogan">welcome to JumpGo... the
+            same internet, but more secure.</div>-->
+          <!--<div class="logo-font android-sub-slogan">you broke it.</div>-->
+          <!--<div class="logo-font android-create-character">
+            <a href="download"><img src="images/tjg.png"> download jumpgo now</a>
+          </div>-->
+
+          <!--<a href="#screens">
+            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>-->
+        <!--</div>-->
 	  <div id="card_main" style="background-color:#F3F3F3;">
-	    
-		<div class="demo-blog__posts mdl-grid">
-	      
-		</div>
 	  
 		
 	        <div class="mdl-grid portfolio-max-width">
-			
-			    <!--
-                <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
-                    <div class="mdl-card__media mdl-color-text--grey-50">
-                        <h3><a href="jumpgo/">JumpGo<span class="_Tgc">™</span> Browser</a></h3>
-                    </div>
-                    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                    <div class="minilogo"></div>
-                        <div>
-		                    <a href="jumpgo" id="jumpgo-card" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
-                            The JumpGo Browser
-                            <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
-			                </a>
-		                    <div for="jumpgo-card" class="mdl-tooltip mdl-tooltip--right">Check out JumpGo</div>
-                        </div>
-			  
-                    </div>
-                </div>
-                <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
-                    <a href="https://plus.google.com/103345987344317762713" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent" style="margin-right: 20px; margin-top: -28px;">
-                        <i class="material-icons mdl-color-text--white" role="presentation">group_work</i>
-                        <span class="visuallyhidden">add</span>
-				    </a>
-                    <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
-                    <img src="images/logo.png"> JTechMe </div>
-                    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-                        <div> <strong>JTechMe Software</strong> </div>
-                        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect"
-                        for="menubtn">
-                            <a class="mdl-menu__item" href="https://www.instagram.com/jtechme/">JTM
-                            on Insta</a>
-                            <a class="mdl-menu__item" href="https://plus.google.com/103345987344317762713">JTM
-                            on G+</a>
-                            <a class="mdl-menu__item" href="https://www.facebook.com/jumpgoJTM/">JumpGo
-                            on FaceBook</a>
-                        </ul>
-                        <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons" role="presentation">more_vert</i>
-				        <span class="visuallyhidden">show menu</span>
-				        </button>
-				    </div>
-                </div>
-				-->
-				
-				<!-- Main Photo -->
-				<div class="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--4dp" id="headfulloftrees">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/josiah_main.png" border="0" alt="">
-                    </div>
-					
-					<div class="mdl-card__actions mdl-card--border">
-						<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" disabled>
-                          <i class="material-icons">art_track</i> My personal portfolio
-                        <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
-						</button>
-                    </div>
-                </div>
-				
-				<!-- Instagram Card -->
-				<div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--4dp" id="headfulloftrees">
-                    <div class="mdl-card__media">
-					  <a href="https://www.instagram.com/jth.digiart/">
-                        <img class="article-image" src="images/NutellaRlzMC_1mb.png" border="0" alt="">
-					  </a>
-                    </div>
-					
-					
-					<div class="mdl-card__actions mdl-card--border">
-                        <a href="https://www.instagram.com/jth.digiart/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
-                          <i class="material-icons">account_circle</i> Josiah Horton
-                        <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
-                    </div>
-                </div>
-				
-				<!-- Featured Gallery -->
-				<div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--4dp" id="headfulloftrees">
-                    <div class="mdl-card__media">
-					  <a href="gallery/senior_pictures_17">
-                        <img class="article-image" src="images/AnJ_senior_pics.png" border="0" alt="">
-				      </a>
-                    </div>
-					
-					
-					<div class="mdl-card__actions mdl-card--border">
-                        <a href="https://www.instagram.com/p/BdOcqkhBV4Y/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
-                          <i class="material-icons">account_circle</i> Abel & Josiah's Senior Pics
-                        <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
-                    </div>
-                </div>
-				
-				<!-- Featured Video -->
-				<div class="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--4dp" id="headfulloftrees">
-                    <div class="mdl-card__media">
-                        <!--
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/YQZ9LiMCBR4?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-						-->
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/p6ctitLXiiw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</div>
-					
-					<div class="mdl-card__actions mdl-card--border">
-						<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" disabled>
-							<i class="material-icons">ondemand_video</i> Fone (Phone) - A Josiah Horton Film
-							<!--
-							<i class="material-icons">ondemand_video</i> Abel's 2018 Photo Shoot - Cinematic Promo
-							-->
-                        <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
-						</button>
-                    </div>
-                </div>
-				
+
                 <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp" id="dev_edition">
                     <!--<div class="mdl-card__title">
                         <h2 class="mdl-card__title-text">THE JUMPGO PROJECT</h2>
                     </div>-->
                     <div class="mdl-card__media">
-                        <img class="article-image" src=" images/about-header.jpg" border="0" alt="">
+                        <img class="article-image" src=" images/about-header-offline.jpg" border="0" alt="">
                     </div>
 					
 					<div class="mdl-grid portfolio-copy">
-                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Josiah Horton</h3>
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Josiah Horton - <b>Offline</h3>
                         <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding">
+							<p><b>You're not connected to the Internet. If you're seeing this page it means you 
+							tried to see a page that isn't available on your device for offline use.</p>
                             <p>My Portfolio Site</p>
 			                <p>My name is Josiah Horton, <br>I'm a software-programer/web-devloper/photographer 
 							and I made this site as my go-to portfolio for these skills. I want to post 
@@ -359,21 +235,12 @@
         <footer class="android-footer mdl-mega-footer">
           <div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--left-section">
-			  <!--<button class="mdl-mega-footer--social-btn"></button>
+              <button class="mdl-mega-footer--social-btn"></button>
               &nbsp;
               <button class="mdl-mega-footer--social-btn"></button>
               &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>-->
+              <button class="mdl-mega-footer--social-btn"></button>
             </div>
-			<!--
-			<div class="mdl-mega-footer--left-section">
-              <button class="mdl-mega-footer--social-btn" href="archive" style="background-color:#F26C4F;"><i class="material-icons" style="color:white;">archive</i></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn" href="gallery" style="background-color:#F26C4F;"><i class="material-icons" style="color:white;">image</i></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"  disabled><i class="material-icons" style="color:white;">apps</i></button>
-            </div>
-			-->
             <div class="mdl-mega-footer--right-section">
               <a class="mdl-typography--font-light" href="#top">
                 Back to Top
@@ -391,15 +258,15 @@
 		  </div>
 
           <div class="mdl-mega-footer--bottom-section">
-            <!--<a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
               Versions
               <i class="material-icons">arrow_drop_up</i>
             </a>
             <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
-              
-              <li class="mdl-menu__item">1.0 Current</li>
-              <li class="mdl-menu__item">0.2 Version</li>
-              <a class="mdl-menu__item" href="../archive">Archive</a>
+              <!--<li class="mdl-menu__item">5.0</li>-->
+              <li class="mdl-menu__item">4.5 Connected Update</li>
+              <li class="mdl-menu__item">4.4 1709 Update</li>
+              <li class="mdl-menu__item">JumpGo History</li>
             </ul>
             <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
               For Developers
@@ -409,32 +276,23 @@
               <li class="mdl-menu__item">App developer resources</li>
               <li class="mdl-menu__item">The JumpGo Project</li>
 			  <li class="mdl-menu__item">JumpGo Dev</li>
+			  <!--<li class="mdl-menu__item">JumpGo for Android</li>
+			  <li class="mdl-menu__item">JumpGo for Windows</li>-->
+              <!--<li class="mdl-menu__item">JumpGo Core</li>-->
               <li class="mdl-menu__item">Logos and Branding</li>
-            </ul>-->
+            </ul>
             <a class="android-link mdl-typography--font-light" href="">Blog</a>
-            <a class="android-link mdl-typography--font-light" href="https://jtechme.github.io">JTechMe</a>
+            <a class="android-link mdl-typography--font-light" href="privacy">Privacy Policy</a>
           </div>
 
         </footer>
       </div>
     </div>
-	<button href="apps" id="apps" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored" disabled>
-		<i class="material-icons">apps</i>
-	</button>
-	<div for="apps" class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large">
-    Visit my apps list
-    </div>
-	<a href="gallery" id="gallery" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
-		<i class="material-icons">image</i>
-	</a>
-	<div for="gallery" class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large">
-    Visit my photo gallery
-    </div>
-    <a href="archive" target="_blank" id="archive" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-button--colored">
-	<i class="material-icons">archive</i>
+    <a href="https://nutellarlz.github.io/" target="_blank" id="archive" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-button--colored">
+	<i class="material-icons">home</i>
 	</a>
 	<div for="archive" class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large">
-    Visit my archive site
+    Go back to the home
     </div>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
