@@ -9,7 +9,34 @@ var preLoad = function(){
   console.log('[PWA Builder] Install Event processing');
   return caches.open('pwabuilder-offline').then(function(cache) {
     console.log('[PWA Builder] Cached index and offline page during Install');
-    return cache.addAll(['/offline.html', '/index.html']);
+    return cache.addAll(['/offline.html', 
+	'/index.html', 
+	'styles.blog.css', 
+	'styles.css', 
+	'styles.portfolio.css', 
+	'styles.text.css', 
+	'material.min.css', 
+	'css/offline.css', 
+	'css/scroll.css', 
+	'css/tabzilla.css', 
+	'css/tabzilla2.css', 
+	'css/demo.css', 
+	'css/creative.css', 
+	'css/creative.css', 
+	'css/creative.css', 
+	'media/img/tabzilla-static.png', 
+	'media/img/tabzilla-static-high-res.png', 
+	'media/img/offline-logo.png', 
+	'media/img/offline-logo-hi-res.png', 
+	'media/img/nutellarlz-white.png', 
+	'images/about-header-off.jpg', 
+	'images/NutellaRlzMC_1mb.png', 
+	'images/josiah_main.png', 
+	'images/AnJ_senior_pics.png', 
+	'images/about-header.jpg', 
+	'images/favicon.png', 
+	'https://code.getmdl.io/1.3.0/material.min.js', 
+	'https://fonts.googleapis.com/icon?family=Material+Icons']);
   });
 }
 
