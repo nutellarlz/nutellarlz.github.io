@@ -4,7 +4,7 @@
     "name": "NutellaRlz - Josiah Horton",
     "scope": "/",
     "display": "standalone",
-    "start_url": "https://nutellarlz.github.io/",
+    "start_url": "/",
     "short_name": "NutellaRlz",
     "theme_color": "#F26C4F",
     "description": "My portfolio for web-development, software development, photography, and anything else I add.",
