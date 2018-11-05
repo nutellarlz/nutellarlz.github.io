@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "NutellaRlz - Josiah Horton",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "/",
+    "short_name": "NutellaRlz",
+    "theme_color": "#F26C4F",
+    "description": "My portfolio for web-development, software development, photography, and anything else I add.",
+    "orientation": "any",
+    "background_color": "#F26C4F",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/images/touch/ms-touch-icon-144x144-precomposed.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/images/images/favicon.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/images/images/android-desktop.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/ios-desktop.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/images/a5bec924-7b50-7d9b-b4f6-fc32138b4a08.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/windows10/SplashScreen.scale-200.png.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/57f3071b-8e07-7aab-30d3-8c89cf4eed32.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0a4a0f77-07e6-1c40-7f0a-6677d6b58d23.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8a014144-a433-3bc7-1824-23d496cb83cb.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/71982892-a798-d322-58cb-f2b0b03f8512.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/e090cc96-dcfe-2116-a3f5-d298fb1fad59.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/350864a0-4105-73ca-fbe3-fdfe8795de69.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0fc35e3d-527d-8fc1-a4d1-7f1f85c961e5.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/14885c3b-a21e-c24e-454b-21d3b626b72a.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/f954aba2-3626-d9a4-d4dc-e69f06cb704d.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ios/ios-appicon-1024-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/47dbd157-ac2c-03a2-7345-ddf7ebafa9f1.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/64d44718-8cdc-6222-3e02-53e56dc43e2a.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/60da2818-057e-63fc-48f9-8b408f4bbbcf.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
