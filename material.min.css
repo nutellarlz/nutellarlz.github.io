@@ -681,7 +681,7 @@ ul,ol{font-size:14px;line-height:24px}
 .mdl-button:hover{background-color:rgba(158,158,158,.2)}
 .mdl-button:focus:not(:active){background-color:rgba(0,0,0,.12)}
 .mdl-button:active{background-color:rgba(158,158,158,.4)}
-.mdl-button.mdl-button--colored{color:rgb(139,195,74)}
+.mdl-button.mdl-button--colored{color:rgb(242,108,79)}
 .mdl-button.mdl-button--colored:focus:not(:active){background-color:rgba(0,0,0,.12)}
 .mdl-button.mdl-button--border{border:2px solid rgb(242,108,79);}
 .mdl-button.mdl-button--border:focus:not(:active){border:2px solid rgb(0,0,0,.12)}
