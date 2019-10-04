@@ -11,7 +11,7 @@ components in vanilla CSS, JS, and HTML. This is not a current version of these 
 
 Some content is under the Creative Commons Attribution Share Alike 4.0 [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 
-### MDL License
+### MDL Components - Apache License
 
 © Google, 2015. Licensed under an
 [Apache-2](https://github.com/google/material-design-lite/blob/master/LICENSE)
