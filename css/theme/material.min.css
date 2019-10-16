@@ -159,8 +159,8 @@ ul,ol{font-size:14px;line-height:24px}
 .mdl-color--pink-900{background-color:#880e4f !important}
 .mdl-color-text--pink-A100{color:#ff80ab !important}
 .mdl-color--pink-A100{background-color:#ff80ab !important}
-.mdl-color-text--pink-A200{color:#F26C4F !important}
-.mdl-color--pink-A200{background-color:#F26C4F !important}
+.mdl-color-text--pink-A200{color:var(--theme-color-hex) !important}
+.mdl-color--pink-A200{background-color:var(--theme-color-hex) !important}
 .mdl-color-text--pink-A400{color:#f50057 !important}
 .mdl-color--pink-A400{background-color:#f50057 !important}
 .mdl-color-text--pink-A700{color:#c51162 !important}
@@ -279,8 +279,8 @@ ul,ol{font-size:14px;line-height:24px}
 .mdl-color--blue-900{background-color:#0d47a1 !important}
 .mdl-color-text--blue-A100{color:#82b1ff !important}
 .mdl-color--blue-A100{background-color:#82b1ff !important}
-.mdl-color-text--blue-A200{color:#f26c4f !important}
-.mdl-color--blue-A200{background-color:#f26c4f !important}
+.mdl-color-text--blue-A200{color:var(--theme-color-hex) !important}
+.mdl-color--blue-A200{background-color:var(--theme-color-hex) !important}
 .mdl-color-text--blue-A400{color:#2979ff !important}
 .mdl-color--blue-A400{background-color:#2979ff !important}
 .mdl-color-text--blue-A700{color:#2962ff !important}
