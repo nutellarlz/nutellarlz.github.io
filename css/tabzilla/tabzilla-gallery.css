@@ -1,12 +1,12 @@
-#tabzilla {
+#tabzilla2 {
   float: right;
   position: relative;
 }
-#tabzilla a {
+#tabzilla2 a {
   text-indent: 120%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('../media/img/tabzilla-static.png');
+  background-image: url('../../media/img/tabzilla-gallery.svg');
   background-repeat: no-repeat;
   display: block;
   height: 37px;
@@ -15,13 +15,13 @@
   z-index: 2;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
-  #tabzilla a {
-    background-image: url('../media/img/tabzilla-static-high-res.png');
+  #tabzilla2 a {
+    background-image: url('../../media/img/tabzilla-gallery.svg');
     -webkit-background-size: 147px 37px;
     background-size: 147px 37px;
   }
 }
-#tabzilla:before {
+#tabzilla2:before {
   background-color: transparent;
   content: '';
   display: block;
@@ -32,6 +32,6 @@
   width: 88px;
   z-index: 1;
 }
-html[dir='rtl'] #tabzilla {
+html[dir='rtl'] #tabzilla2 {
   float: left;
 }
