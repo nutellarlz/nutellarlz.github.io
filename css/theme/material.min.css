@@ -5,7 +5,10 @@
  * @copyright 2015 Google, Inc.
  * @link https://github.com/google/material-design-lite
  */
+
 @charset "UTF-8";html{color:rgba(0,0,0,.87)}
+@import url("theme.color.css");
+
 ::-moz-selection{background:#b3d4fc;text-shadow:none}
 ::selection{background:#b3d4fc;text-shadow:none}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
