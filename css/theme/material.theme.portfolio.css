@@ -1,3 +1,15 @@
+/**
+ * material-design-lite - Material Design Components in CSS, JS and HTML
+ * @version v1.0.6
+ * @license Apache-2.0
+ * @copyright 2015 Google, Inc.
+ * @link https://github.com/google/material-design-lite
+ */
+ 
+/* Portfolio Styling */
+
+@import url("theme.color.css");
+
 .portfolio-header {
   position: relative;
   background-image: url(images/header-bg.jpg);
@@ -167,4 +179,3 @@ footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
 }
-

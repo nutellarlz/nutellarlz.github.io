@@ -1,0 +1,15 @@
+/**
+ * material-site-theme - Compartmentalized Material Site Theme Components in CSS, JS and HTML
+ * @version v0.1
+ * @license Mozilla Public License 2.0
+ * @copyright 2019 Josiah Horton.
+ */
+
+/* Theme main rgb */
+/* Theme main hex */
+
+:root {
+  --theme-color-hex:#F26C4F;
+  --theme-color-rgb:rgb(242,108,79);
+  --theme-color-rgba:rgba(242,108,79,1);
+}

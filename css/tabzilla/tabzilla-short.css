@@ -1,27 +1,27 @@
-#tabzilla2 {
+#tabzilla {
   float: right;
   position: relative;
 }
-#tabzilla2 a {
+#tabzilla a {
   text-indent: 120%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('../media/img/tabzilla-archive.svg');
+  background-image: url('../../media/img/tabzilla-n-tilt.svg');
   background-repeat: no-repeat;
   display: block;
   height: 37px;
   position: relative;
-  width: 147px;
+  width: 43px;
   z-index: 2;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
-  #tabzilla2 a {
-    background-image: url('../media/img/tabzilla-archive.svg');
-    -webkit-background-size: 147px 37px;
-    background-size: 147px 37px;
+  #tabzilla a {
+    background-image: url('../../media/img/tabzilla-n-tilt.svg');
+    -webkit-background-size: 43px 37px;
+    background-size: 43px 37px;
   }
 }
-#tabzilla2:before {
+#tabzilla:before {
   background-color: transparent;
   content: '';
   display: block;
@@ -32,6 +32,6 @@
   width: 88px;
   z-index: 1;
 }
-html[dir='rtl'] #tabzilla2 {
+html[dir='rtl'] #tabzilla {
   float: left;
 }
