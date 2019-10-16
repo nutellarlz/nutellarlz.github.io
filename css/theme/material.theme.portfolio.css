@@ -6,6 +6,10 @@
  * @link https://github.com/google/material-design-lite
  */
  
+/* Portfolio Styling */
+
+@import url("theme.color.css");
+
 .portfolio-header {
   position: relative;
   background-image: url(images/header-bg.jpg);
