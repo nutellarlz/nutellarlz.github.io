@@ -124,7 +124,7 @@
    background-color: white;
  }
 
-   
+
 
    .android-header .mdl-layout__drawer-button {
      background: transparent;
@@ -478,7 +478,7 @@
    }
 
  .android-footer {
-   background-color: #fafafa;
+   /* see theme.colorscheme.css for background */
    position: relative;
  }
 
