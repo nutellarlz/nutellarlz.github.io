@@ -8,7 +8,7 @@
  :root {
    --color-scheme-hex:#757575;
  }
- 
+
 .theme-color-scheme-day   { background: #fff; color: black; }
 .theme-color-scheme-night { background: #333; color: white; }
 .mdl-color-text--grey-600{color:#757575 !important}
@@ -27,6 +27,13 @@
   color: #767777 !important;
 }
 
+.android-footer {
+  background-color: #fafafa;
+  position: relative;
+}
+
+.mdl-card{background:#fff;border:2px solid rgba(211, 211, 211,1)}
+
 @media (prefers-color-scheme: dark) {
   .theme-color-scheme-day.dark-scheme   { background:  #333; color: white; }
   .theme-color-scheme-night.dark-scheme { background: black; color:  #ddd; }
@@ -42,9 +49,16 @@
   .mdl-layout__header .mdl-layout__drawer-button.dark-scheme{position:absolute;color:rgb(255,255,255);background-color:inherit}
 
   .mdl-layout__header-row .mdl-navigation__link.dark-scheme{display:block;color:rgb(255,255,255);line-height:64px;padding:0 24px}
-  .android-header .material-icons.dark-scheme {
+  .android-header .material-icons {
     color: #fff !important;
   }
+
+  .android-footer.dark-scheme {
+    background-color: #3d3d3d;
+    position: relative;
+  }
+
+  .mdl-card.dark-scheme{background:#333;border:2px solid rgba(112, 112, 112,1)}
 }
 
 @media (prefers-color-scheme: light) {
@@ -62,9 +76,16 @@
   .mdl-layout__header .mdl-layout__drawer-button.light-scheme{position:absolute;color:rgb(66,66,66);background-color:inherit}
 
   .mdl-layout__header-row .mdl-navigation__link.light-scheme{display:block;color:rgb(66,66,66);line-height:64px;padding:0 24px}
-  .android-header .material-icons.light-scheme {
-    color: #767777 !important;
+  .android-header .material-icons {
+    color: #424242 !important;
   }
+
+  .android-footer.light-scheme {
+    background-color: #fafafa;
+    position: relative;
+  }
+
+  .mdl-card.light-scheme{background:#fff;border:2px solid rgba(211, 211, 211,1)}
 }
 
 .theme-color-scheme-day, .theme-color-scheme-night {
