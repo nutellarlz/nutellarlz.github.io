@@ -10,6 +10,9 @@
  */
 
 @import "theme.color.css";
+
+/* Material Theme Card */
+
 .mdl-card{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font-size:16px;font-weight:400;min-height:200px;overflow:hidden;width:330px;z-index:1;position:relative;background:#fff;border-radius:10px;box-sizing:border-box;border:2px solid rgba(211, 211, 211,1)}
 .mdl-card__media{background-color:var(--theme-color-rgb);background-repeat:repeat;background-position:50% 50%;background-size:cover;background-origin:padding-box;background-attachment:scroll;box-sizing:border-box}
 .mdl-card__title{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:#000;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:stretch;-webkit-justify-content:stretch;-ms-flex-pack:stretch;justify-content:stretch;line-height:normal;padding:16px;-webkit-perspective-origin:165px 56px;perspective-origin:165px 56px;-webkit-transform-origin:165px 56px;-ms-transform-origin:165px 56px;transform-origin:165px 56px;box-sizing:border-box}
