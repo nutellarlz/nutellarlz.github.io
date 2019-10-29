@@ -60,8 +60,7 @@
     background-color: #3d3d3d;
     position: relative;
   }
-
-  .mdl-card.dark-scheme{background:#333;border:2px solid rgba(112, 112, 112,1)}
+  .mdl-card{background:#333;border:2px solid rgba(112, 112, 112,1)}
   .mdl-data-table.dark-scheme{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collapse;white-space:nowrap;font-size:13px;background-color:#333}
   .mdl-data-table.dark-scheme tbody tr:hover{background-color:#575757}
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
