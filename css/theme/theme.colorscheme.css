@@ -33,6 +33,10 @@
 .mdl-card{background:#fff;border:2px solid rgba(211, 211, 211,1)}
 .mdl-data-table{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collapse;white-space:nowrap;font-size:13px;background-color:#fff}
 .mdl-data-table tbody tr:hover{background-color:#eee}
+.android-drawer .mdl-navigation__link.mdl-navigation__link {
+  font-size: 14px;
+  color: #757575;
+}
 
 @media (prefers-color-scheme: dark) {
   .theme-color-scheme-day.dark-scheme   { background:  #333; color: white; }
@@ -60,6 +64,10 @@
   .mdl-card.dark-scheme{background:#333;border:2px solid rgba(112, 112, 112,1)}
   .mdl-data-table.dark-scheme{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collapse;white-space:nowrap;font-size:13px;background-color:#333}
   .mdl-data-table.dark-scheme tbody tr:hover{background-color:#575757}
+  .android-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #fff;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -80,15 +88,17 @@
   .android-header .material-icons {
     color: #424242 !important;
   }
-
   .android-footer.light-scheme {
     background-color: #fafafa;
     position: relative;
   }
-
   .mdl-card.light-scheme{background:#fff;border:2px solid rgba(211, 211, 211,1)}
   .mdl-data-table.light-scheme{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collapse;white-space:nowrap;font-size:13px;background-color:#fff}
 .mdl-data-table.light-scheme tbody tr:hover{background-color:#eee}
+  .android-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
 }
 
 .theme-color-scheme-day, .theme-color-scheme-night {
