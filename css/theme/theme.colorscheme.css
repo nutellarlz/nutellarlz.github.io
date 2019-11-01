@@ -26,66 +26,78 @@
 .android-header .material-icons {
   color: #767777 !important;
 }
-
 .android-footer {
   background-color: #fafafa;
   position: relative;
 }
-
 .mdl-card{background:#fff;border:2px solid rgba(211, 211, 211,1)}
+.mdl-data-table{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collapse;white-space:nowrap;font-size:13px;background-color:#fff}
+.mdl-data-table tbody tr:hover{background-color:#eee}
+.android-drawer .mdl-navigation__link.mdl-navigation__link {
+  font-size: 14px;
+  color: #757575;
+}
 
 @media (prefers-color-scheme: dark) {
   .theme-color-scheme-day.dark-scheme   { background:  #333; color: white; }
   .theme-color-scheme-night.dark-scheme { background: black; color:  #ddd; }
-  .mdl-color-text--grey-600.dark-scheme {color:#fff !important}
-  .mdl-color--grey-600.dark-scheme {background-color:#fff !important}
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link.dark-scheme {display:block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;padding:16px 40px;margin:0;color:#fff}
-  .android-header .mdl-navigation__link.dark-scheme {
+  .mdl-color-text--grey-600 {color:#fff !important}
+  .mdl-color--grey-600 {background-color:#fff !important}
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {display:block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;padding:16px 40px;margin:0;color:#fff}
+  .android-header .mdl-navigation__link {
     color: #fff;
     font-weight: 700;
     font-size: 14px;
   }
-  .mdl-layout__drawer-button.dark-scheme{display:block;position:absolute;height:48px;width:48px;border:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;overflow:hidden;text-align:center;cursor:pointer;font-size:26px;line-height:50px;font-family:Helvetica,Arial,sans-serif;margin:10px 12px;top:0;left:0;color:rgb(255,255,255);z-index:4}
-  .mdl-layout__header .mdl-layout__drawer-button.dark-scheme{position:absolute;color:rgb(255,255,255);background-color:inherit}
+  .mdl-layout__drawer-button{display:block;position:absolute;height:48px;width:48px;border:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;overflow:hidden;text-align:center;cursor:pointer;font-size:26px;line-height:50px;font-family:Helvetica,Arial,sans-serif;margin:10px 12px;top:0;left:0;color:rgb(255,255,255);z-index:4}
+  .mdl-layout__header .mdl-layout__drawer-button{position:absolute;color:rgb(255,255,255);background-color:inherit}
 
-  .mdl-layout__header-row .mdl-navigation__link.dark-scheme{display:block;color:rgb(255,255,255);line-height:64px;padding:0 24px}
+  .mdl-layout__header-row .mdl-navigation__link{display:block;color:rgb(255,255,255);line-height:64px;padding:0 24px}
   .android-header .material-icons {
     color: #fff !important;
   }
-
-  .android-footer.dark-scheme {
+  .android-footer {
     background-color: #3d3d3d;
     position: relative;
   }
-
-  .mdl-card.dark-scheme{background:#333;border:2px solid rgba(112, 112, 112,1)}
+  .mdl-card{background:#333;border:2px solid rgba(112, 112, 112,1)}
+  .mdl-data-table{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collapse;white-space:nowrap;font-size:13px;background-color:#333}
+  .mdl-data-table tbody tr:hover{background-color:#575757}
+  .android-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #fff;
+  }
 }
 
 @media (prefers-color-scheme: light) {
   .theme-color-scheme-day.light-scheme   { background: white; color:  #555; }
   .theme-color-scheme-night.light-scheme { background:  #fff; color: black; }
   .mdl-color-text--grey-600{color:#757575 !important}
-  .mdl-color--grey-600.light-scheme {background-color:#757575 !important}
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link.light-scheme {display:block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;padding:16px 40px;margin:0;color:#757575}
-  .android-header .mdl-navigation__link.light-scheme {
+  .mdl-color--grey-600 {background-color:#757575 !important}
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {display:block;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;padding:16px 40px;margin:0;color:#757575}
+  .android-header .mdl-navigation__link {
     color: #757575;
     font-weight: 700;
     font-size: 14px;
   }
-  .mdl-layout__drawer-button.light-scheme{display:block;position:absolute;height:48px;width:48px;border:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;overflow:hidden;text-align:center;cursor:pointer;font-size:26px;line-height:50px;font-family:Helvetica,Arial,sans-serif;margin:10px 12px;top:0;left:0;color:rgb(66,66,66);z-index:4}
-  .mdl-layout__header .mdl-layout__drawer-button.light-scheme{position:absolute;color:rgb(66,66,66);background-color:inherit}
+  .mdl-layout__drawer-button{display:block;position:absolute;height:48px;width:48px;border:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;overflow:hidden;text-align:center;cursor:pointer;font-size:26px;line-height:50px;font-family:Helvetica,Arial,sans-serif;margin:10px 12px;top:0;left:0;color:rgb(66,66,66);z-index:4}
+  .mdl-layout__header .mdl-layout__drawer-button{position:absolute;color:rgb(66,66,66);background-color:inherit}
 
-  .mdl-layout__header-row .mdl-navigation__link.light-scheme{display:block;color:rgb(66,66,66);line-height:64px;padding:0 24px}
+  .mdl-layout__header-row .mdl-navigation__link{display:block;color:rgb(66,66,66);line-height:64px;padding:0 24px}
   .android-header .material-icons {
     color: #424242 !important;
   }
-
-  .android-footer.light-scheme {
+  .android-footer {
     background-color: #fafafa;
     position: relative;
   }
-
-  .mdl-card.light-scheme{background:#fff;border:2px solid rgba(211, 211, 211,1)}
+  .mdl-card{background:#fff;border:2px solid rgba(211, 211, 211,1)}
+  .mdl-data-table{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collapse;white-space:nowrap;font-size:13px;background-color:#fff}
+.mdl-data-table tbody tr:hover{background-color:#eee}
+  .android-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
 }
 
 .theme-color-scheme-day, .theme-color-scheme-night {

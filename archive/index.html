@@ -48,16 +48,26 @@
 	<!-- PWA -->
 	<link rel="manifest" href="../manifest.json">
 
-    <!-- Page styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="material.min.css">
-    <!--<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">-->
-    <link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="styles.portfolio.css">
-    <link rel="stylesheet" type="text/css" href="../css/tabzilla-short.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../css/tabzilla-archive.css" media="screen">
-	<link href="css/scroll.css" rel="stylesheet">
+  <!-- Page styles -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Material Styles -->
+  <link rel="stylesheet" href="../css/theme/material.button.css"> <!--  -->
+  <link rel="stylesheet" href="../css/theme/material.card.css"> <!--  -->
+  <link rel="stylesheet" href="../css/theme/material.cell.css"> <!--  -->
+  <link rel="stylesheet" href="../css/theme/material.data-table.css"> <!--  -->
+  <link rel="stylesheet" href="../css/theme/material.theme.css"> <!-- The main Material theme styles -->
+  <link rel="stylesheet" href="../css/theme/material.theme.android.css"> <!--  -->
+  <link rel="stylesheet" href="../css/theme/material.theme.portfolio.css"> <!--  -->
+  <!-- Theme Styles -->
+  <link rel="stylesheet" href="css/theme/theme.color.css"> <!-- Color styles -->
+  <link rel="stylesheet" href="../css/theme/theme.colorscheme.css"> <!-- Color styles -->
+  <!-- Tabzilla Styles -->
+  <link rel="stylesheet" type="text/css" href="../css/tabzilla/tabzilla-short.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="../css/tabzilla/tabzilla-archive.css" media="screen">
+
+  <link href="css/scroll.css" rel="stylesheet">
 
     <style>
     #archive {
@@ -68,10 +78,6 @@
       margin-right: 40px;
       margin-bottom: 40px;
       z-index: 900;
-      border: 3px;
-      border-style: solid;
-      color:#FF4081;
-      background-color:#fff;
     }
     </style>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -88,7 +94,7 @@
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall" id="navbar-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall theme-color-scheme-day dark-scheme" id="navbar-header">
         <div class="mdl-layout__header-row">
 		<div id="tabzilla"> <a href="https://nutellarlz.github.io">NutellaRlz</a> </div>
 		<div id="tabzilla2"> <a href="">Archive</a> </div>
@@ -108,17 +114,17 @@
           <!-- Navigation -->
           <div class="android-navigation-container">
             <nav class="android-navigation mdl-navigation">
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://jtechme.github.io/">JTechMe</a>
+                <a class="mdl-navigation__link dark-scheme mdl-typography--text-uppercase" href="https://jtechme.github.io/">JTechMe</a>
                 <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Apps</a>-->
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/NutellaRlz">GitHub</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../gallery">Gallery</a>
+                <a class="mdl-navigation__link dark-scheme mdl-typography--text-uppercase" href="https://github.com/NutellaRlz">GitHub</a>
+                <a class="mdl-navigation__link dark-scheme mdl-typography--text-uppercase" href="../gallery">Gallery</a>
                 <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="apps">Apps</a>-->
-				<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Apps</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://plus.google.com/+JoeHorton">G+</a>
+				<a class="mdl-navigation__link  dark-scheme mdl-typography--text-uppercase" href="">Apps</a>
+                <a class="mdl-navigation__link dark-scheme mdl-typography--text-uppercase" href="https://plus.google.com/+JoeHorton">G+</a>
                 <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://joehorton99.blogspot.com/">Blog</a>-->
                 <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="mailto:jtechme.org@gmail.com">Contact</a>-->
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://nutellarlz.github.io">
-				<i class="material-icons">home</i>
+                <a class="mdl-navigation__link dark-scheme mdl-typography--text-uppercase" href="https://nutellarlz.github.io">
+				<i class="material-icons" style="padding:20px 0;">home</i>
 				</a>
             </nav>
           </div>
@@ -137,7 +143,7 @@
         </div>
     </div>
 
-	<div class="android-drawer mdl-layout__drawer">
+	<div class="android-drawer mdl-layout__drawer theme-color-scheme-day dark-scheme">
         <span class="mdl-layout-title">
           <img class="android-logo-image" src="media/img/archive-logo-white.svg">
         </span>
@@ -159,7 +165,6 @@
           <span class="mdl-navigation__link" href=""><i class="material-icons">description</i> Resources</span>
           <a class="mdl-navigation__link" href="../archive">The Site Archive</a>
           <a class="mdl-navigation__link" href="https://joehorton99.blogspot.com/">My blog</a>
-          <a class="mdl-navigation__link" href="https://plus.google.com/+JoeHorton">My Google+ Page</a>
           <!--<a class="mdl-navigation__link" href="https://www.facebook.com/jumpgoJTM/">JumpGo on Facebook</a>-->
           <div class="android-drawer-separator"></div>
           <span class="mdl-navigation__link" href=""><i class="material-icons">developer_board</i> For developers</span>
@@ -173,7 +178,7 @@
 
 	  <a name="top"></a>
 	  <!--<div id="card_main" style="background-color:#F3F3F3;">-->
-	  <div id="card_main" style="background-color:#fff;">
+	  <div id="card_table" class="theme-color-scheme-day dark-scheme">
 
 
 	        <div class="mdl-grid portfolio-max-width">
@@ -182,68 +187,68 @@
                 <table class="mdl-data-table mdl-js-data-table" style="border:none;width:100%;height:100%">
                   <thead>
                     <tr>
-					  <th><i class="material-icons" style="width:10%;">folder_open</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                      <th class="mdl-data-table__cell--non-numeric" style="width:50%;">Site</th>
-                      <th style="width:15%;text-align:center;">Site Version</th>
-                      <th style="width:25%;">Date</th>
+					  <th><i class="material-icons theme-color-scheme-day dark-scheme" style="width:10%;">folder_open</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                      <th class="mdl-data-table__cell--non-numeric theme-color-scheme-day dark-scheme" style="width:50%;text-align: center;">Site</th>
+                      <th class="theme-color-scheme-day dark-scheme" style="width:15%;text-align:center;">Site Version</th>
+                      <th class="theme-color-scheme-day dark-scheme" style="width:25%;">Date</th>
                     </tr>
                   </thead>
                   <tbody>
 				    <tr>
-					  <td style="color:grey;"><i class="material-icons">folder_open</i></td>
+					  <td><i class="material-icons">folder_open</i></td>
                       <td class="mdl-data-table__cell--non-numeric"><a href="https://nutellarlz.github.io/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="border-radius:0px;width:100%;height:100%;">
                           nutellarlz.com
                         <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a></td>
-                      <td style="color:grey;">v1.3</td>
-                      <td style="color:grey;">10/13/2018 - Present</td>
+                      <td>v1.3</td>
+                      <td>10/13/2018 - Present</td>
                     </tr>
 					<tr>
-					  <td style="color:grey;"><i class="material-icons">folder_open</i></td>
+					  <td><i class="material-icons">folder_open</i></td>
                       <td class="mdl-data-table__cell--non-numeric"><a href="v1.2" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="border-radius:0px;width:100%;height:100%;">
                           nutellarlz.github.io
                         <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a></td>
-                      <td style="color:grey;">v1.2</td>
-                      <td style="color:grey;">5/18/2018 - 10/13/2018</td>
+                      <td>v1.2</td>
+                      <td>5/18/2018 - 10/13/2018</td>
                     </tr>
 					<tr>
-					  <td style="color:grey;"><i class="material-icons">folder_open</i></td>
+					  <td><i class="material-icons">folder_open</i></td>
                       <td class="mdl-data-table__cell--non-numeric"><a href="v1.1" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="border-radius:0px;width:100%;height:100%;">
                           nutellarlz.github.io
                         <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a></td>
-                      <td style="color:grey;">v1.1</td>
-                      <td style="color:grey;">1/3/2018 - 5/18/2018</td>
+                      <td>v1.1</td>
+                      <td>1/3/2018 - 5/18/2018</td>
                     </tr>
 				    <tr>
-					  <td style="color:grey;"><i class="material-icons">folder_open</i></td>
+					  <td><i class="material-icons">folder_open</i></td>
                       <td class="mdl-data-table__cell--non-numeric"><a href="v1.0" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="border-radius:0px;width:100%;height:100%;">
                           nutellarlz.github.io
                         <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a></td>
-                      <td style="color:grey;">v1.0</td>
-                      <td style="color:grey;">10/25/2017 - 1/3/2018</td>
+                      <td>v1.0</td>
+                      <td>10/25/2017 - 1/3/2018</td>
                     </tr>
                     <tr>
-					  <td style="color:grey;"><i class="material-icons">folder_open</i></td>
+					  <td><i class="material-icons">folder_open</i></td>
                       <td class="mdl-data-table__cell--non-numeric"><a href="v0.2" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="border-radius:0px;width:100%;height:100%;">
                           nutellarlz.github.io
                         <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a></td>
-                      <td style="color:grey;">v0.2</td>
-                      <td style="color:grey;">3/14/2016 - 10/25/2017</td>
+                      <td>v0.2</td>
+                      <td>3/14/2016 - 10/25/2017</td>
                     </tr>
 					<tr>
-					  <td style="color:grey;"><i class="material-icons">folder_open</i></td>
+					  <td><i class="material-icons">folder_open</i></td>
                       <td class="mdl-data-table__cell--non-numeric"><a href="unsorted/project_befit/BeFit.htm" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="border-radius:0px;width:100%;height:100%;">
                           BeFit School Proj
                         <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a></td>
-                      <td style="color:grey;">N/A</td>
-                      <td style="color:grey;">5/2/2017</td>
+                      <td>N/A</td>
+                      <td>5/2/2017</td>
                     </tr>
 					<tr>
-					  <td style="color:grey;"><i class="material-icons">folder_open</i></td>
+					  <td><i class="material-icons">folder_open</i></td>
                       <td class="mdl-data-table__cell--non-numeric"><a href="unsorted/project_chap12/iframes.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" style="border-radius:0px;width:100%;height:100%;">
                           Chap 12 School Proj
                         <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a></td>
-                      <td style="color:grey;">N/A</td>
-                      <td style="color:grey;">6/20/2017</td>
+                      <td>N/A</td>
+                      <td>6/20/2017</td>
                     </tr>
                   </tbody>
                 </table>
@@ -251,20 +256,20 @@
 
     </div>
   </div>
-      <div id="card_main" style="background-color:#3F3F3F;">
+      <div id="card_site-versions" class="theme-color-scheme-day dark-scheme">
         <div class="mdl-grid portfolio-max-width">
 
 				<div id="vX.X" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--1dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Current Version</h2>
+                        <h2 class="mdl-card__title-text theme-color-scheme-day dark-scheme">Current Version</h2>
                     </div>
                     <div class="mdl-card__media">
                         <a href="https://nutellarlz.github.io/"> <img class="article-image" src=" images/site-pic.jpg" border="0" alt=""></a>
                     </div>
                     <div class="mdl-card__supporting-text no-bottom-padding">
                         <span>Version 1.3</span>
-                        <div id="1_2link" class=" icon material-icons portfolio-share-btn" tabindex="0">link</div>
-                        <div for="1_2link" class="mdl-tooltip">Linked in the archive</div>
+                        <div id="1_3link" class=" icon material-icons portfolio-share-btn" tabindex="0">link</div>
+                        <div for="1_3link" class="mdl-tooltip">Linked in the archive</div>
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <a href="https://nutellarlz.github.io" class="mdl-button mdl-button--border mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
@@ -275,15 +280,15 @@
 
 				<div id="v1.2" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--1dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Archived Version 1.2</h2>
+                        <h2 class="mdl-card__title-text theme-color-scheme-day dark-scheme">Archived Version 1.2</h2>
                     </div>
                     <div class="mdl-card__media">
                         <a href="v1.2"> <img class="article-image" src=" v1.2/site-pic.jpg" border="0" alt=""></a>
                     </div>
                     <div class="mdl-card__supporting-text no-bottom-padding">
                         <span>Version 1.2</span>
-                        <div id="1_2link" class=" icon material-icons portfolio-share-btn" tabindex="0">link</div>
-                        <div for="1_2link" class="mdl-tooltip">Linked in the archive</div>
+                        <div id="1_2link" class=" icon material-icons portfolio-share-btn" tabindex="0">archive</div>
+                        <div for="1_2link" class="mdl-tooltip">Archived site</div>
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <a href="v1.2" class="mdl-button mdl-button--border mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
@@ -294,15 +299,15 @@
 
 				<div id="v1.1" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--1dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Archived Version 1.1</h2>
+                        <h2 class="mdl-card__title-text theme-color-scheme-day dark-scheme">Archived Version 1.1</h2>
                     </div>
                     <div class="mdl-card__media">
                         <a href="v1.1"> <img class="article-image" src="v1.1/site-pic.jpg" border="0" alt=""></a>
                     </div>
                     <div class="mdl-card__supporting-text no-bottom-padding">
                         <span>Version 1.1</span>
-                        <div id="1_1link" class=" icon material-icons portfolio-share-btn" tabindex="0">link</div>
-                        <div for="1_1link" class="mdl-tooltip">Linked in the archive</div>
+                        <div id="1_1link" class=" icon material-icons portfolio-share-btn" tabindex="0">archive</div>
+                        <div for="1_1link" class="mdl-tooltip">Archived site</div>
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <a href="v1.1" class="mdl-button mdl-button--border mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
@@ -313,7 +318,7 @@
 
 				<div id="v1.0" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--1dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Archived Version 1.0</h2>
+                        <h2 class="mdl-card__title-text theme-color-scheme-day dark-scheme">Archived Version 1.0</h2>
                     </div>
                     <div class="mdl-card__media">
                         <a href="v1.0"> <img class="article-image" src="v1.0/site-pic.png" border="0" alt=""></a>
@@ -339,7 +344,7 @@
 
 				<div id="v0.2" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--1dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Archived Version 0.2</h2>
+                        <h2 class="mdl-card__title-text theme-color-scheme-day dark-scheme">Archived Version 0.2</h2>
                     </div>
                     <div class="mdl-card__media">
                         <a href="v0.2"> <img class="article-image" src="v0.2/site-pic.png" border="0" alt=""></a>
@@ -364,12 +369,12 @@
                 </div>
        </div>
      </div>
-     <div id="card_main" style="background-color:#fff;">
+     <div id="card_unsorted-projects" class="theme-color-scheme-day dark-scheme">
        <div class="mdl-grid portfolio-max-width">
 
 				<div id="befit" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--1dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">School Project BeFit</h2>
+                        <h2 class="mdl-card__title-text theme-color-scheme-day dark-scheme">School Project BeFit</h2>
                     </div>
                     <div class="mdl-card__media">
                         <a href="unsorted/project_befit/BeFit.htm"> <img class="article-image" src="unsorted/project_befit/site-pic.png" border="0" alt=""></a>
@@ -395,7 +400,7 @@
 
 				<div id="chap12" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--1dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">School Project Chapter 12</h2>
+                        <h2 class="mdl-card__title-text theme-color-scheme-day dark-scheme">School Project Chapter 12</h2>
                     </div>
                     <div class="mdl-card__media">
                         <a href="unsorted/project_chap12/iframes.html"> <img class="article-image" src="unsorted/project_chap12/site-pic.png" border="0" alt=""></a>
@@ -462,7 +467,7 @@
 
 
 
-        <footer class="android-footer mdl-mega-footer">
+        <footer class="android-footer mdl-mega-footer dark-scheme">
           <div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--left-section">
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
@@ -521,7 +526,7 @@
         </footer>
       </div>
     </div>
-    <a href="../" target="_blank" id="archive" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-button--colored">
+    <a href="../" target="_blank" id="archive" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-button--outline">
 	<i class="material-icons">unarchive</i>
 	</a>
 	<div for="archive" class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large">
