@@ -1,0 +1,17 @@
+/**
+ * material-site-theme - Compartmentalized Material Site Theme Components in CSS, JS and HTML
+ * @version v0.1
+ * @license Mozilla Public License 2.0
+ * @copyright 2019 Josiah Horton.
+ *
+ * material-design-lite - Material Design Components in CSS, JS and HTML
+ * @license Apache-2.0
+ * @copyright 2015 Google, Inc.
+ */
+
+@import "theme.color.css";
+
+/* Material Theme grid */
+
+.mdl-grid{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;margin:0 auto;-webkit-box-align:stretch;-webkit-align-items:stretch;-ms-flex-align:stretch;align-items:stretch}
+.mdl-grid.mdl-grid--no-spacing{padding:0}
