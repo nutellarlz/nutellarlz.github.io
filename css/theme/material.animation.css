@@ -1,0 +1,18 @@
+/**
+ * material-site-theme - Compartmentalized Material Site Theme Components in CSS, JS and HTML
+ * @version v0.1
+ * @license Mozilla Public License 2.0
+ * @copyright 2019 Josiah Horton.
+ *
+ * material-design-lite - Material Design Components in CSS, JS and HTML
+ * @license Apache-2.0
+ * @copyright 2015 Google, Inc.
+ */
+
+@import "theme.color.css";
+
+/* Material Theme Animation */
+
+.mdl-animation--default,.mdl-animation--fast-out-slow-in{-webkit-transition-timing-function:cubic-bezier(.4,0,.2,1);transition-timing-function:cubic-bezier(.4,0,.2,1)}
+.mdl-animation--linear-out-slow-in{-webkit-transition-timing-function:cubic-bezier(0,0,.2,1);transition-timing-function:cubic-bezier(0,0,.2,1)}
+.mdl-animation--fast-out-linear-in{-webkit-transition-timing-function:cubic-bezier(.4,0,1,1);transition-timing-function:cubic-bezier(.4,0,1,1)}
