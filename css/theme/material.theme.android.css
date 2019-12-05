@@ -361,7 +361,7 @@
    bottom: 0;
    width: 100%;
    text-align: center;
-   background-color: #37474f;
+   background-color: var(--theme-color-bg-half-rgba);
  }
 
  .wear-banner-band-text {
@@ -369,7 +369,7 @@
    margin-left: 25%;
    padding: 0px;
    text-align: left;
-   color: white;
+   color: var(--theme-color-hex);
  }
 
    .wear-banner-band-text p {
