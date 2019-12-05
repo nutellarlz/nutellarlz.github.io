@@ -349,14 +349,14 @@
    }
 
 
- .android-wear-section {
+ .wear-banner-section {
    position: relative;
    background: url('images/wear.png') center top no-repeat;
    background-size: cover;
    height: 800px;
  }
 
- .android-wear-band {
+ .wear-banner-band {
    position: absolute;
    bottom: 0;
    width: 100%;
@@ -364,7 +364,7 @@
    background-color: #37474f;
  }
 
- .android-wear-band-text {
+ .wear-banner-band-text {
    max-width: 800px;
    margin-left: 25%;
    padding: 24px;
@@ -372,7 +372,7 @@
    color: white;
  }
 
-   .android-wear-band-text p {
+   .wear-banner-band-text p {
      padding-top: 8px;
    }
 
