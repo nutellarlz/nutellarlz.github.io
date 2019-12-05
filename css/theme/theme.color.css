@@ -12,4 +12,6 @@
   --theme-color-hex:#9e9e9e;
   --theme-color-rgb:rgb(158, 158, 158);
   --theme-color-rgba:rgba(158, 158, 158,1);
+  --theme-color-bg-hex:#FFFFFF;
+  --theme-color-bg-half-rgba:rgba(158, 158, 158,.75);
 }
