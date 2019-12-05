@@ -6,19 +6,26 @@
   text-indent: 120%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('../../media/img/tabzilla-n-tilt.svg');
+  /* tabzilla bg img is no longer called here. */
   background-repeat: no-repeat;
   display: block;
   height: 37px;
   position: relative;
-  width: 43px;
+  width: 52px;
   z-index: 2;
 }
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+@media (prefers-color-scheme: light) {
   #tabzilla a {
-    background-image: url('../../media/img/tabzilla-n-tilt.svg');
-    -webkit-background-size: 43px 37px;
-    background-size: 43px 37px;
+    background-image: url('../../media/img/tabzilla-n-dark.svg');
+    -webkit-background-size: 52px 37px;
+    background-size: 52px 37px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  #tabzilla a {
+    background-image: url('../../media/img/tabzilla-n-light.svg');
+    -webkit-background-size: 52px 37px;
+    background-size: 52px 37px;
   }
 }
 #tabzilla:before {
