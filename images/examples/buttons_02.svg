@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="426.667" height="240" viewBox="0 0 426.667 240">
+  <defs>
+    <filter id="Rectangle_182" x="15" y="10" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-2" x="125" y="10" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-3" x="60" y="64" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-4" x="170" y="64" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-5" x="235" y="10" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-6" x="345" y="10" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-7" x="280" y="64" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-8" x="390" y="64" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-9" x="-50" y="64" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="teal_circle" x="17" y="113" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-10"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.14" stop-opacity="0.631"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.23" stop-color="#fff" stop-opacity="0.012"/>
+      <stop offset="0.36" stop-color="#fff" stop-opacity="0.039"/>
+      <stop offset="0.47" stop-color="#fff" stop-opacity="0.102"/>
+      <stop offset="0.57" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.67" stop-color="#fff" stop-opacity="0.278"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0.412"/>
+      <stop offset="0.83" stop-color="#fff" stop-opacity="0.561"/>
+      <stop offset="0.91" stop-color="#fff" stop-opacity="0.741"/>
+      <stop offset="0.98" stop-color="#fff" stop-opacity="0.929"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="teal_circle-2" x="88.5" y="111.5" width="95" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-11"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="teal_circle-3" x="163" y="113" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-12"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="teal_circle-4" x="234.5" y="111.5" width="95" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-13"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="teal_circle-5" x="309" y="113" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-14"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="teal_circle-6" x="380.5" y="111.5" width="95" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-15"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="teal_circle-7" x="-57.5" y="111.5" width="95" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-16"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-10" x="60" y="192" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-17"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-11" x="170" y="192" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-18"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-12" x="280" y="192" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-19"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-13" x="390" y="192" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-20"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-14" x="-50" y="192" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-21"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-buttons_02">
+      <rect width="426.667" height="240"/>
+    </clipPath>
+  </defs>
+  <g id="buttons_02" clip-path="url(#clip-buttons_02)">
+    <rect width="426.667" height="240" fill="#fff"/>
+    <rect id="Rectangle_183" data-name="Rectangle 183" width="427" height="240" fill="#fff"/>
+    <g id="Normal_Raised_Light" data-name="Normal Raised Light" transform="translate(18 11)">
+      <g transform="matrix(1, 0, 0, 1, -18, -11)" filter="url(#Rectangle_182)">
+        <rect id="Rectangle_182-15" data-name="Rectangle 182" width="90" height="36" rx="10" transform="translate(18 11)" fill="#363636"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-2" data-name="Normal Raised Light" transform="translate(128 11)">
+      <g transform="matrix(1, 0, 0, 1, -128, -11)" filter="url(#Rectangle_182-2)">
+        <g id="Rectangle_182-16" data-name="Rectangle 182" transform="translate(128 11)" fill="#fff" stroke="#363636" stroke-width="3">
+          <rect width="90" height="36" rx="10" stroke="none"/>
+          <rect x="1.5" y="1.5" width="87" height="33" rx="8.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-3" data-name="Normal Raised Light" transform="translate(63 65)">
+      <g transform="matrix(1, 0, 0, 1, -63, -65)" filter="url(#Rectangle_182-3)">
+        <rect id="Rectangle_182-17" data-name="Rectangle 182" width="90" height="36" rx="18" transform="translate(63 65)" fill="#363636"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-4" data-name="Normal Raised Light" transform="translate(173 65)">
+      <g transform="matrix(1, 0, 0, 1, -173, -65)" filter="url(#Rectangle_182-4)">
+        <g id="Rectangle_182-18" data-name="Rectangle 182" transform="translate(173 65)" fill="#fff" stroke="#363636" stroke-width="3">
+          <rect width="90" height="36" rx="18" stroke="none"/>
+          <rect x="1.5" y="1.5" width="87" height="33" rx="16.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-5" data-name="Normal Raised Light" transform="translate(238 11)">
+      <g transform="matrix(1, 0, 0, 1, -238, -11)" filter="url(#Rectangle_182-5)">
+        <rect id="Rectangle_182-19" data-name="Rectangle 182" width="90" height="36" transform="translate(238 11)" fill="#363636"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-6" data-name="Normal Raised Light" transform="translate(348 11)">
+      <g transform="matrix(1, 0, 0, 1, -348, -11)" filter="url(#Rectangle_182-6)">
+        <g id="Rectangle_182-20" data-name="Rectangle 182" transform="translate(348 11)" fill="#fff" stroke="#363636" stroke-width="3">
+          <rect width="90" height="36" stroke="none"/>
+          <rect x="1.5" y="1.5" width="87" height="33" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-7" data-name="Normal Raised Light" transform="translate(283 65)">
+      <g transform="matrix(1, 0, 0, 1, -283, -65)" filter="url(#Rectangle_182-7)">
+        <path id="Rectangle_182-21" data-name="Rectangle 182" d="M0,0H70A20,20,0,0,1,90,20V36a0,0,0,0,1,0,0H20A20,20,0,0,1,0,16V0A0,0,0,0,1,0,0Z" transform="translate(283 65)" fill="#363636"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-8" data-name="Normal Raised Light" transform="translate(393 65)">
+      <g transform="matrix(1, 0, 0, 1, -393, -65)" filter="url(#Rectangle_182-8)">
+        <g id="Rectangle_182-22" data-name="Rectangle 182" transform="translate(393 65)" fill="#fff" stroke="#363636" stroke-width="3">
+          <path d="M20,0H90a0,0,0,0,1,0,0V16A20,20,0,0,1,70,36H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" stroke="none"/>
+          <path d="M20,1.5H87A1.5,1.5,0,0,1,88.5,3V16A18.5,18.5,0,0,1,70,34.5H3A1.5,1.5,0,0,1,1.5,33V20A18.5,18.5,0,0,1,20,1.5Z" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-9" data-name="Normal Raised Light" transform="translate(-47 65)">
+      <g transform="matrix(1, 0, 0, 1, 47, -65)" filter="url(#Rectangle_182-9)">
+        <g id="Rectangle_182-23" data-name="Rectangle 182" transform="translate(-47 65)" fill="#fff" stroke="#363636" stroke-width="3">
+          <rect width="90" height="36" rx="5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="87" height="33" rx="3.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light" data-name="Round Btn Pressed Light" transform="translate(35 119)">
+      <g transform="matrix(1, 0, 0, 1, -35, -119)" filter="url(#teal_circle)">
+        <circle id="teal_circle-8" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(35 119)" fill="#363636"/>
+      </g>
+      <g id="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-2" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#fff"/>
+      </g>
+      <g id="Group_333" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light-2" data-name="Round Btn Pressed Light" transform="translate(108 119)">
+      <g transform="matrix(1, 0, 0, 1, -108, -119)" filter="url(#teal_circle-2)">
+        <circle id="teal_circle-9" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(108 119)" fill="#fff" stroke="#363636" stroke-width="3"/>
+      </g>
+      <g id="ic_add_white-3" data-name="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-4" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#363636"/>
+      </g>
+      <g id="Group_333-2" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2-2" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1-2" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light-3" data-name="Round Btn Pressed Light" transform="translate(181 119)">
+      <g transform="matrix(1, 0, 0, 1, -181, -119)" filter="url(#teal_circle-3)">
+        <circle id="teal_circle-10" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(181 119)" fill="#363636"/>
+      </g>
+      <g id="ic_add_white-5" data-name="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-6" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#fff"/>
+      </g>
+      <g id="Group_333-3" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2-3" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1-3" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light-4" data-name="Round Btn Pressed Light" transform="translate(254 119)">
+      <g transform="matrix(1, 0, 0, 1, -254, -119)" filter="url(#teal_circle-4)">
+        <circle id="teal_circle-11" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(254 119)" fill="#fff" stroke="#363636" stroke-width="3"/>
+      </g>
+      <g id="ic_add_white-7" data-name="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-8" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#363636"/>
+      </g>
+      <g id="Group_333-4" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2-4" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1-4" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light-5" data-name="Round Btn Pressed Light" transform="translate(327 119)">
+      <g transform="matrix(1, 0, 0, 1, -327, -119)" filter="url(#teal_circle-5)">
+        <circle id="teal_circle-12" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(327 119)" fill="#363636"/>
+      </g>
+      <g id="ic_add_white-9" data-name="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-10" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#fff"/>
+      </g>
+      <g id="Group_333-5" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2-5" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1-5" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light-6" data-name="Round Btn Pressed Light" transform="translate(400 119)">
+      <g transform="matrix(1, 0, 0, 1, -400, -119)" filter="url(#teal_circle-6)">
+        <circle id="teal_circle-13" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(400 119)" fill="#fff" stroke="#363636" stroke-width="3"/>
+      </g>
+      <g id="ic_add_white-11" data-name="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-12" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#363636"/>
+      </g>
+      <g id="Group_333-6" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2-6" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1-6" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light-7" data-name="Round Btn Pressed Light" transform="translate(-38 119)">
+      <g transform="matrix(1, 0, 0, 1, 38, -119)" filter="url(#teal_circle-7)">
+        <circle id="teal_circle-14" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(-38 119)" fill="#fff" stroke="#363636" stroke-width="3"/>
+      </g>
+      <g id="ic_add_white-13" data-name="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-14" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#363636"/>
+      </g>
+      <g id="Group_333-7" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2-7" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1-7" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-10" data-name="Normal Raised Light" transform="translate(63 193)">
+      <g transform="matrix(1, 0, 0, 1, -63, -193)" filter="url(#Rectangle_182-10)">
+        <path id="Rectangle_182-24" data-name="Rectangle 182" d="M10,0H90a0,0,0,0,1,0,0V26A10,10,0,0,1,80,36H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(63 193)" fill="#363636"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-11" data-name="Normal Raised Light" transform="translate(173 193)">
+      <g transform="matrix(1, 0, 0, 1, -173, -193)" filter="url(#Rectangle_182-11)">
+        <g id="Rectangle_182-25" data-name="Rectangle 182" transform="translate(173 193)" fill="#fff" stroke="#363636" stroke-width="3">
+          <path d="M0,0H80A10,10,0,0,1,90,10V36a0,0,0,0,1,0,0H10A10,10,0,0,1,0,26V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M3,1.5H80A8.5,8.5,0,0,1,88.5,10V33A1.5,1.5,0,0,1,87,34.5H10A8.5,8.5,0,0,1,1.5,26V3A1.5,1.5,0,0,1,3,1.5Z" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-12" data-name="Normal Raised Light" transform="translate(283 193)">
+      <g transform="matrix(1, 0, 0, 1, -283, -193)" filter="url(#Rectangle_182-12)">
+        <rect id="Rectangle_182-26" data-name="Rectangle 182" width="90" height="36" rx="15" transform="translate(283 193)" fill="#363636"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-13" data-name="Normal Raised Light" transform="translate(393 193)">
+      <g transform="matrix(1, 0, 0, 1, -393, -193)" filter="url(#Rectangle_182-13)">
+        <g id="Rectangle_182-27" data-name="Rectangle 182" transform="translate(393 193)" fill="#fff" stroke="#363636" stroke-width="3">
+          <rect width="90" height="36" rx="15" stroke="none"/>
+          <rect x="1.5" y="1.5" width="87" height="33" rx="13.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-14" data-name="Normal Raised Light" transform="translate(-47 193)">
+      <g transform="matrix(1, 0, 0, 1, 47, -193)" filter="url(#Rectangle_182-14)">
+        <g id="Rectangle_182-28" data-name="Rectangle 182" transform="translate(-47 193)" fill="#fff" stroke="#363636" stroke-width="3">
+          <path d="M0,0H90a0,0,0,0,1,0,0V16A20,20,0,0,1,70,36H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M3,1.5H87A1.5,1.5,0,0,1,88.5,3V16A18.5,18.5,0,0,1,70,34.5H3A1.5,1.5,0,0,1,1.5,33V3A1.5,1.5,0,0,1,3,1.5Z" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
