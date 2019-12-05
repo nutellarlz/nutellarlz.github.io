@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <clipPath id="clip-stock_images_02">
+      <rect width="240" height="240"/>
+    </clipPath>
+  </defs>
+  <g id="stock_images_02" clip-path="url(#clip-stock_images_02)">
+    <rect width="240" height="240" fill="#fff"/>
+    <rect id="Rectangle_183" data-name="Rectangle 183" width="240" height="240" fill="#fff"/>
+    <rect id="Rectangle_188" data-name="Rectangle 188" width="197" height="363" transform="translate(106.826 -145.428) rotate(45)" fill="#363636"/>
+  </g>
+</svg>
