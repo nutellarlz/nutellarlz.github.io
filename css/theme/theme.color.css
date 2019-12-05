@@ -15,3 +15,21 @@
   --theme-color-bg-hex:#FFFFFF;
   --theme-color-bg-half-rgba:rgba(158, 158, 158,.75);
 }
+@media (prefers-color-scheme: dark){
+  :root {
+    --theme-color-hex:#FFFFFF;
+    --theme-color-rgb:rgb(255,255,255);
+    --theme-color-rgba:rgba(255,255,255,1);
+    --theme-color-bg-hex:#363636;
+    --theme-color-bg-half-rgba:rgba(158, 158, 158,.75);
+  }
+}
+@media (prefers-color-scheme: light){
+  :root {
+    --theme-color-hex:#363636;
+    --theme-color-rgb:rgb(54, 54, 54);
+    --theme-color-rgba:rgba(54, 54, 54,1);
+    --theme-color-bg-hex:#FFFFFF;
+    --theme-color-bg-half-rgba:rgba(255, 255, 255,.75);
+  }
+}
