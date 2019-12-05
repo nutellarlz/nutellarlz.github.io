@@ -367,7 +367,7 @@
  .wear-banner-band-text {
    max-width: 800px;
    margin-left: 25%;
-   padding: 0px;
+   padding: 24px;
    text-align: left;
    color: var(--theme-color-hex);
  }
