@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="489" height="240" viewBox="0 0 489 240">
+  <defs>
+    <filter id="Rectangle_182" x="20" y="22" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-2" x="112" y="164" width="96" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="teal_circle" x="389.5" y="158.5" width="95" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-3"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.14" stop-opacity="0.631"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.23" stop-color="#fff" stop-opacity="0.012"/>
+      <stop offset="0.36" stop-color="#fff" stop-opacity="0.039"/>
+      <stop offset="0.47" stop-color="#fff" stop-opacity="0.102"/>
+      <stop offset="0.57" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.67" stop-color="#fff" stop-opacity="0.278"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0.412"/>
+      <stop offset="0.83" stop-color="#fff" stop-opacity="0.561"/>
+      <stop offset="0.91" stop-color="#fff" stop-opacity="0.741"/>
+      <stop offset="0.98" stop-color="#fff" stop-opacity="0.929"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Rectangle_182-3" x="202" y="22" width="206" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_182-4" x="149" y="96" width="65" height="25" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-components_02">
+      <rect width="489" height="240"/>
+    </clipPath>
+  </defs>
+  <g id="components_02" clip-path="url(#clip-components_02)">
+    <rect width="489" height="240" fill="#fff"/>
+    <rect id="Rectangle_183" data-name="Rectangle 183" width="489" height="240" fill="#fff"/>
+    <g id="Normal_Raised_Light" data-name="Normal Raised Light" transform="translate(23 23)">
+      <g transform="matrix(1, 0, 0, 1, -23, -23)" filter="url(#Rectangle_182)">
+        <rect id="Rectangle_182-5" data-name="Rectangle 182" width="90" height="36" rx="10" transform="translate(23 23)" fill="#363636"/>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-2" data-name="Normal Raised Light" transform="translate(115 165)">
+      <g transform="matrix(1, 0, 0, 1, -115, -165)" filter="url(#Rectangle_182-2)">
+        <g id="Rectangle_182-6" data-name="Rectangle 182" transform="translate(115 165)" fill="#fff" stroke="#363636" stroke-width="3">
+          <rect width="90" height="36" rx="10" stroke="none"/>
+          <rect x="1.5" y="1.5" width="87" height="33" rx="8.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Round_Btn_Pressed_Light" data-name="Round Btn Pressed Light" transform="translate(409 166)">
+      <g transform="matrix(1, 0, 0, 1, -409, -166)" filter="url(#teal_circle)">
+        <circle id="teal_circle-2" data-name="teal circle" cx="28" cy="28" r="28" transform="translate(409 166)" fill="#fff" stroke="#363636" stroke-width="3"/>
+      </g>
+      <g id="ic_add_white" transform="translate(-120 -51)">
+        <path id="ic_add_white-2" data-name="ic_add_white" d="M3438,988h-6v6h-2v-6h-6v-2h6v-6h2v6h6Z" transform="translate(-3283 -908)" fill="#363636"/>
+      </g>
+      <g id="Group_333" data-name="Group 333" transform="translate(-2970 398)" opacity="0.12">
+        <path id="gradient_border_2" data-name="gradient border 2" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient)"/>
+        <path id="gradient_border_1" data-name="gradient border 1" d="M3431,959.5a27.5,27.5,0,1,1-27.5,27.5,27.5,27.5,0,0,1,27.5-27.5m0-.5a28,28,0,1,0,28,28,28,28,0,0,0-28-28Z" transform="translate(-433 -1357)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Component_2_3" data-name="Component 2 – 3" transform="translate(205 23)">
+      <g id="Normal_Raised_Light-3" data-name="Normal Raised Light">
+        <g transform="matrix(1, 0, 0, 1, -205, -23)" filter="url(#Rectangle_182-3)">
+          <g id="Rectangle_182-7" data-name="Rectangle 182" transform="translate(205 23)" fill="#fff" stroke="#363636" stroke-width="3">
+            <path d="M10,0H190a10,10,0,0,1,10,10V36a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" stroke="none"/>
+            <path d="M10,1.5H190a8.5,8.5,0,0,1,8.5,8.5V33a1.5,1.5,0,0,1-1.5,1.5H3A1.5,1.5,0,0,1,1.5,33V10A8.5,8.5,0,0,1,10,1.5Z" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="hint_text_3_light" transform="translate(-46 -148)">
+        <text id="hint_text" transform="translate(63 172)" fill="#363636" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">T</tspan></text>
+      </g>
+    </g>
+    <g id="Normal_Raised_Light-4" data-name="Normal Raised Light" transform="translate(152 97)">
+      <g transform="matrix(1, 0, 0, 1, -152, -97)" filter="url(#Rectangle_182-4)">
+        <rect id="Rectangle_182-8" data-name="Rectangle 182" width="59" height="19" rx="9.5" transform="translate(152 97)" fill="#363636"/>
+      </g>
+      <circle id="contact_photo" cx="5" cy="5" r="5" transform="translate(5 5)" fill="#fff"/>
+    </g>
+    <g id="pressed_slider__1_light" data-name="pressed_slider _1_light" transform="translate(196 106.9)">
+      <path id="pressed_slider_bar" d="M0,0H144V2H0Z" transform="translate(1 38.1)" fill="#363636"/>
+      <path id="pressed_slider_active" d="M86,0V2H0Z" transform="translate(1 38.1)" fill="#363636"/>
+      <g id="pressed_notification" transform="translate(74 -1)">
+        <path id="pressed_notification-2" data-name="pressed_notification" d="M13,.1A13.082,13.082,0,0,1,26,13.3c0,3.7-2,7.6-7.3,12.9L13,32,7.2,26.2C2,20.8,0,16.9,0,13.3A13.082,13.082,0,0,1,13,.1Z" fill="#363636" fill-rule="evenodd"/>
+        <text id="notification_number" transform="translate(10.5 16.1)" fill="#fff" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">6</tspan></text>
+      </g>
+      <path id="slider_knob" d="M86,0a6,6,0,1,0,6,6,6.018,6.018,0,0,0-6-6" transform="translate(1 32.1)" fill="#363636" fill-rule="evenodd"/>
+    </g>
+    <g id="Component_3_3" data-name="Component 3 – 3" transform="translate(20 81)">
+      <g id="Rectangle_185" data-name="Rectangle 185" fill="#fff" stroke="#363636" stroke-width="3">
+        <rect width="70" height="70" stroke="none"/>
+        <rect x="1.5" y="1.5" width="67" height="67" fill="none"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" x2="67" y2="67" transform="translate(1.5 1.5)" fill="none" stroke="#363636" stroke-width="3"/>
+      <line id="Line_2" data-name="Line 2" y1="67" x2="67" transform="translate(1.5 1.5)" fill="none" stroke="#363636" stroke-width="3"/>
+    </g>
+    <g id="Component_4_5" data-name="Component 4 – 5" transform="translate(377 75)">
+      <g id="Rectangle_186" data-name="Rectangle 186" fill="#fff" stroke="#363636" stroke-width="3">
+        <rect width="161" height="82" stroke="none"/>
+        <rect x="1.5" y="1.5" width="158" height="79" fill="none"/>
+      </g>
+      <line id="Line_3" data-name="Line 3" x2="107" transform="translate(34.5 20.5)" fill="none" stroke="#363636" stroke-width="3"/>
+      <line id="Line_4" data-name="Line 4" x2="120" transform="translate(21.5 33.5)" fill="none" stroke="#363636" stroke-width="3"/>
+      <line id="Line_5" data-name="Line 5" x2="120" transform="translate(21.5 46.5)" fill="none" stroke="#363636" stroke-width="3"/>
+      <line id="Line_6" data-name="Line 6" x2="102" transform="translate(21.5 59.5)" fill="none" stroke="#363636" stroke-width="3"/>
+    </g>
+    <g id="Component_4_6" data-name="Component 4 – 6" transform="translate(-51.5 182.5)">
+      <line id="Line_3-2" data-name="Line 3" x2="107" transform="translate(13)" fill="none" stroke="#363636" stroke-width="3"/>
+      <line id="Line_4-2" data-name="Line 4" x2="120" transform="translate(0 13)" fill="none" stroke="#363636" stroke-width="3"/>
+      <line id="Line_5-2" data-name="Line 5" x2="120" transform="translate(0 26)" fill="none" stroke="#363636" stroke-width="3"/>
+      <line id="Line_6-2" data-name="Line 6" x2="102" transform="translate(0 39)" fill="none" stroke="#363636" stroke-width="3"/>
+    </g>
+    <g id="Component_5_3" data-name="Component 5 – 3" transform="translate(217 202)">
+      <rect id="Rectangle_187" data-name="Rectangle 187" width="150" height="26" fill="#363636"/>
+      <line id="Line_7" data-name="Line 7" x2="33" transform="translate(109.5 13.5)" fill="none" stroke="#fff" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
