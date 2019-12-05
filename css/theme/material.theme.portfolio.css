@@ -5,14 +5,14 @@
  * @copyright 2015 Google, Inc.
  * @link https://github.com/google/material-design-lite
  */
- 
+
 /* Portfolio Styling */
 
 @import url("theme.color.css");
 
 .portfolio-header {
   position: relative;
-  background-image: url(images/header-bg.jpg);
+  background-image: url(../../images/examples/stock_images_05.svg);
 }
 
 .portfolio-header .mdl-layout__header-row {
